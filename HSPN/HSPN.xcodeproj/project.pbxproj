@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25011A851DF9CB5F0019BD51 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25011A841DF9CB5F0019BD51 /* Data.swift */; };
 		258D5B841DCE1B1E00C99F11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D5B831DCE1B1E00C99F11 /* AppDelegate.swift */; };
 		258D5B861DCE1B1E00C99F11 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D5B851DCE1B1E00C99F11 /* FirstViewController.swift */; };
 		258D5B881DCE1B1E00C99F11 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D5B871DCE1B1E00C99F11 /* SecondViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25011A841DF9CB5F0019BD51 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		258D5B801DCE1B1E00C99F11 /* HSPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		258D5B831DCE1B1E00C99F11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		258D5B851DCE1B1E00C99F11 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				258D5B831DCE1B1E00C99F11 /* AppDelegate.swift */,
 				258D5B851DCE1B1E00C99F11 /* FirstViewController.swift */,
 				258D5B871DCE1B1E00C99F11 /* SecondViewController.swift */,
+				25011A841DF9CB5F0019BD51 /* Data.swift */,
 				258D5B891DCE1B1E00C99F11 /* Main.storyboard */,
 				258D5B8C1DCE1B1E00C99F11 /* Assets.xcassets */,
 				258D5B8E1DCE1B1E00C99F11 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 				258D5B881DCE1B1E00C99F11 /* SecondViewController.swift in Sources */,
 				258D5B841DCE1B1E00C99F11 /* AppDelegate.swift in Sources */,
 				258D5B861DCE1B1E00C99F11 /* FirstViewController.swift in Sources */,
+				25011A851DF9CB5F0019BD51 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +310,7 @@
 				258D5B961DCE1B1E00C99F11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
