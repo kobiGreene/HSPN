@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		25011A851DF9CB5F0019BD51 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25011A841DF9CB5F0019BD51 /* Data.swift */; };
+		25011A8F1E010B0F0019BD51 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25011A8E1E010B0F0019BD51 /* CalenderViewController.swift */; };
+		25011A911E0115580019BD51 /* AllTeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25011A901E0115580019BD51 /* AllTeamsViewController.swift */; };
+		25011A931E011AF50019BD51 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25011A921E011AF50019BD51 /* FavoriteViewController.swift */; };
+		25011A951E011D740019BD51 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25011A941E011D740019BD51 /* HomeViewController.swift */; };
 		258D5B841DCE1B1E00C99F11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D5B831DCE1B1E00C99F11 /* AppDelegate.swift */; };
-		258D5B861DCE1B1E00C99F11 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D5B851DCE1B1E00C99F11 /* FirstViewController.swift */; };
-		258D5B881DCE1B1E00C99F11 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D5B871DCE1B1E00C99F11 /* SecondViewController.swift */; };
 		258D5B8B1DCE1B1E00C99F11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 258D5B891DCE1B1E00C99F11 /* Main.storyboard */; };
 		258D5B8D1DCE1B1E00C99F11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 258D5B8C1DCE1B1E00C99F11 /* Assets.xcassets */; };
 		258D5B901DCE1B1E00C99F11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 258D5B8E1DCE1B1E00C99F11 /* LaunchScreen.storyboard */; };
@@ -18,10 +20,12 @@
 
 /* Begin PBXFileReference section */
 		25011A841DF9CB5F0019BD51 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		25011A8E1E010B0F0019BD51 /* CalenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		25011A901E0115580019BD51 /* AllTeamsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllTeamsViewController.swift; sourceTree = "<group>"; };
+		25011A921E011AF50019BD51 /* FavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		25011A941E011D740019BD51 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		258D5B801DCE1B1E00C99F11 /* HSPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		258D5B831DCE1B1E00C99F11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		258D5B851DCE1B1E00C99F11 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		258D5B871DCE1B1E00C99F11 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		258D5B8A1DCE1B1E00C99F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		258D5B8C1DCE1B1E00C99F11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		258D5B8F1DCE1B1E00C99F11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,9 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				258D5B831DCE1B1E00C99F11 /* AppDelegate.swift */,
-				258D5B851DCE1B1E00C99F11 /* FirstViewController.swift */,
-				258D5B871DCE1B1E00C99F11 /* SecondViewController.swift */,
 				25011A841DF9CB5F0019BD51 /* Data.swift */,
+				25011A901E0115580019BD51 /* AllTeamsViewController.swift */,
+				25011A8E1E010B0F0019BD51 /* CalenderViewController.swift */,
+				25011A921E011AF50019BD51 /* FavoriteViewController.swift */,
+				25011A941E011D740019BD51 /* HomeViewController.swift */,
 				258D5B891DCE1B1E00C99F11 /* Main.storyboard */,
 				258D5B8C1DCE1B1E00C99F11 /* Assets.xcassets */,
 				258D5B8E1DCE1B1E00C99F11 /* LaunchScreen.storyboard */,
@@ -143,9 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				258D5B881DCE1B1E00C99F11 /* SecondViewController.swift in Sources */,
+				25011A8F1E010B0F0019BD51 /* CalenderViewController.swift in Sources */,
 				258D5B841DCE1B1E00C99F11 /* AppDelegate.swift in Sources */,
-				258D5B861DCE1B1E00C99F11 /* FirstViewController.swift in Sources */,
+				25011A951E011D740019BD51 /* HomeViewController.swift in Sources */,
+				25011A931E011AF50019BD51 /* FavoriteViewController.swift in Sources */,
+				25011A911E0115580019BD51 /* AllTeamsViewController.swift in Sources */,
 				25011A851DF9CB5F0019BD51 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
